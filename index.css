@@ -9,6 +9,8 @@ body {
   width:100%;
 }
 
+// from http://codepen.io/andrewboyd/pen/nmiFr
+
 .centered-overlay {
   box-sizing: border-box;
   padding: .5em 3em;
