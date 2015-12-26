@@ -1,0 +1,43 @@
+/*
+changing body bg color will give a different color effect
+*/
+
+body {
+  background: #E9F0C9;
+  overflow: hidden;
+  margin:0;
+  width:100%;
+}
+
+.centered-overlay {
+  box-sizing: border-box;
+  padding: .5em 3em;
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  max-width: 570px;
+  max-height: 500px;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.75);
+  transform: translate3d(-50%, -50%, 0);
+}
+.centered-overlay h1 {
+  font-family: "Helvetica Neue", "Helvetica", san-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  text-align: center;
+  color: #eee;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.centered-overlay li {
+  font-family: "Helvetica Neue", "Helvetica", san-serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-align: left;
+  color: #eee;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
