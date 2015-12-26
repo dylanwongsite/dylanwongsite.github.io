@@ -1,4 +1,5 @@
 // clowns && jugglers by tiffany rayside
+// http://codepen.io/tmrDevelops/pen/vLKERZ
 
 var c = document.getElementById('canv');
     $ = c.getContext("2d");
